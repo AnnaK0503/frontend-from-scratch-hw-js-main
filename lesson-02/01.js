@@ -18,10 +18,8 @@ let isAccess = false
 // your code
 while (!isAccess) {
     if (isAdmin || isVerifiedUser && hasSpecialPermission || hasTemporaryPass) {
-        alert("Доступ есть")
         isAccess = true
     } else {
-        alert("Доступ ограничен")
         isAccess = true
     }
 }
