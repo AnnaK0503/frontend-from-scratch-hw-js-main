@@ -12,20 +12,17 @@
 Пример использования:
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
-let teatArray = [1, 2, 3]
 
-function includesElement(array,element) {
-    for (i = 0; i < array.length; i++) {
-        if (array[i] === element) {
-            return true
-        } else {
-            return false
-        }
-
+function includesElement(array, element) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === element) {
+      return true;
     }
+  }
+  return false;
 }
 
-
-let result = includesElement([1, 2, 3], 2);
+let result  = includesElement([1, 2, 3], 2)
 console.log(result);
+
 
