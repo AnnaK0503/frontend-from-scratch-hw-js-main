@@ -35,11 +35,4 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery (anygallery,anykey, newsens) {
-  for (const key in gallery) {
-    if (gallery[anykey] !== gallery[key]) {
-      gallery[anykey] = newsens
-    }
-  }
- 
-}
+function updateGallery() {}

@@ -6,15 +6,3 @@
 
 // your code
 let sum
-sum = 0
-
-let n = 0
-
-while (n < 20) {
-  n++
-  if (n%2) {
-    sum += n
-  }
-}
-
-

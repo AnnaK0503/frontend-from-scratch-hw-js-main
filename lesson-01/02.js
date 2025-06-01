@@ -7,10 +7,3 @@
 
 // your code
 let factorial
-factorial = 1
-
-let n = 10
-
-while (n) { 
-  factorial *= (n--)
-}
