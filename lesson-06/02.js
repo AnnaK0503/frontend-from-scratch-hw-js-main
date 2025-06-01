@@ -28,7 +28,8 @@ const map = (array, callback) => {
   const  result = []; 
   for (let index = 0; index < array.length; index++){
     let element  = array[index]
-    result.push(callback(element,array[index]) )
+    const transformedElement = callback(element, index); 
+    result.push(transformedElement)
   }
     return result;
 
