@@ -20,4 +20,4 @@ function capitalizeWords(str) {
 
 }
 
-console.log(capitalizeWords("hello world from javascript"));
+
